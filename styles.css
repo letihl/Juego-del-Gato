@@ -1,0 +1,39 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    background-color: red;
+    height: 100vh;
+    display: flex;
+    flex-direction: colum;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor div {
+    background-color: white;
+}
+
+.cuadro {
+    border: 1px solid black;
+    width: 600px;
+    height: 600px;
+    display: grid
+    
+    
+    
+    
+}
+
+.cuadro div {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font size: 80px; 
+}
